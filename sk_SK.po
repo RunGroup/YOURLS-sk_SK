@@ -1,0 +1,1414 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YOURLS 1.7\n"
+"POT-Creation-Date: 2015-12-15 08:13+0100\n"
+"PO-Revision-Date: 2015-12-15 13:24+0100\n"
+"Language-Team: Filip Hanes, Run Group s.r.o. <hanes@run.sk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-KeywordsList: yourls__;yourls_e;yourls_s;yourls_se;"
+"yourls_esc_attr__;yourls_esc_html__;yourls_x;yourls_ex;yourls_esc_attr_x;"
+"yourls_esc_html_x;yourls_n:1,2;yourls_nx:1,2;yourls_n_noop:1,2;"
+"yourls_nx_noop:1,2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Last-Translator: \n"
+"Language: sk_SK\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: yourls-infos.php:204
+#, php-format
+msgid "Statistics for %s"
+msgstr "Štatistiky pre %s"
+
+#: yourls-infos.php:211 admin/index.php:15 admin/index.php:34
+#: admin/index.php:93 includes/functions-html.php:209
+#: includes/functions-html.php:221 includes/functions-html.php:464
+#: includes/functions-html.php:626
+msgid "Short URL"
+msgstr "Krátke URL"
+
+#: yourls-infos.php:227
+msgid "Aggregate stats for duplicate short URLs"
+msgstr "Agregované štatistiky pre krátke URL"
+
+#: yourls-infos.php:229 includes/functions-html.php:464
+msgid "Long URL"
+msgstr "Dlhé URL"
+
+#: yourls-infos.php:235 yourls-infos.php:246
+msgid "Traffic statistics"
+msgstr "Štatistika návštevnosti"
+
+#: yourls-infos.php:236 yourls-infos.php:432
+msgid "Traffic location"
+msgstr "Miesta návštevnosti"
+
+#: yourls-infos.php:237 yourls-infos.php:469
+msgid "Traffic sources"
+msgstr "Zdroje návštevnosti"
+
+#: yourls-infos.php:239 yourls-infos.php:539 includes/functions-html.php:505
+#: includes/functions-html.php:506
+msgid "Share"
+msgstr "Zdieľať"
+
+#: yourls-infos.php:254 yourls-infos.php:294
+msgid "Last 24 hours"
+msgstr "Posledných 24 hodín"
+
+#: yourls-infos.php:255 yourls-infos.php:296
+msgid "Last 7 days"
+msgstr "Posledných 7 dní"
+
+#: yourls-infos.php:256 yourls-infos.php:298
+msgid "Last 30 days"
+msgstr "Posledných 30 dní"
+
+#: yourls-infos.php:257 yourls-infos.php:300
+msgid "All time"
+msgstr "Celkový čas"
+
+#: yourls-infos.php:309
+#, php-format
+msgid "Number of hits : %s"
+msgstr "Počet preklikov: %s"
+
+#: yourls-infos.php:332
+msgid "Historical click count"
+msgstr "Historický počet klikov"
+
+#: yourls-infos.php:338
+#, php-format
+msgid "about 1 day ago"
+msgid_plural "about %s days ago"
+msgstr[0] "asi pred 1 dňom"
+msgstr[1] "asi pred %s dňami"
+msgstr[2] "asi pred %s dňami"
+
+#. //translators: eg Short URL created on March 23rd 1972
+#: yourls-infos.php:341
+#, php-format
+msgid "Short URL created on %s"
+msgstr "Krátke URL vytvorená %s"
+
+#: yourls-infos.php:356 yourls-infos.php:363
+#, php-format
+msgid "%s per day"
+msgstr "%s za deň"
+
+#: yourls-infos.php:359
+#, php-format
+msgid "%s per hour"
+msgstr "%s za hodinu"
+
+#: yourls-infos.php:366
+#, php-format
+msgid "%s hit"
+msgid_plural "%s hits"
+msgstr[0] "1 klik"
+msgstr[1] "%s kliky"
+msgstr[2] "%s klikov"
+
+#: yourls-infos.php:373
+msgid "Best day"
+msgstr "Najlepší deň"
+
+#. //translators: eg. 43 hits on January 1, 1970
+#: yourls-infos.php:380
+#, php-format
+msgid "<strong>%1$s</strong> hit on %2$s"
+msgid_plural "<strong>%1$s</strong> hits on %2$s"
+msgstr[0] "<strong>%1$s</strong> klik na %2$s"
+msgstr[1] "<strong>%1$s</strong> kliky na %2$s"
+msgstr[2] "<strong>%1$s</strong> klikov na %2$s"
+
+#: yourls-infos.php:381 yourls-infos.php:443
+msgid "Click for more details"
+msgstr "Kliknite pre viac detailov"
+
+#: yourls-infos.php:387 yourls-infos.php:390
+#, php-format
+msgid "Year %s"
+msgstr "Rok %s"
+
+#: yourls-infos.php:409 yourls-infos.php:447
+#, php-format
+msgid "1 hit"
+msgid_plural "%s hits"
+msgstr[0] "1 klik"
+msgstr[1] "%s kliky"
+msgstr[2] "%s klikov"
+
+#: yourls-infos.php:426
+msgid "No traffic yet. Get some clicks first!"
+msgstr "Zatiaľ žiadna návštevnosť. Získajte najprv nejaké prekliky!"
+
+#: yourls-infos.php:441
+msgid "Top 5 countries"
+msgstr "Top 5 krajín"
+
+#: yourls-infos.php:454
+msgid "Overall traffic"
+msgstr "Celkový návštevnosť"
+
+#: yourls-infos.php:463
+msgid "No country data."
+msgstr "Žiadne dáta o krajinách"
+
+#: yourls-infos.php:478
+msgid "Referrer shares"
+msgstr "Zdieľania referrerov"
+
+#: yourls-infos.php:481
+msgid "Others"
+msgstr "Ostatné"
+
+#: yourls-infos.php:485 yourls-infos.php:518
+msgid "Referrers"
+msgstr "Referenti"
+
+#: yourls-infos.php:492 yourls-infos.php:502
+msgid "(details)"
+msgstr "(detaily)"
+
+#: yourls-infos.php:502
+msgid "Various:"
+msgstr "Rôzne:"
+
+#: yourls-infos.php:516
+msgid "Direct vs Referrer Traffic"
+msgstr "Priama vs Odkazovaná návštevnosť"
+
+#: yourls-infos.php:518
+msgid "Direct"
+msgstr "Priamo"
+
+#: yourls-infos.php:520
+msgid "Direct traffic:"
+msgstr "Priama návštevnosť:"
+
+#: yourls-infos.php:520 yourls-infos.php:521
+#, php-format
+msgid "<strong>%s</strong> hit"
+msgid_plural "<strong>%s</strong> hits"
+msgstr[0] "<strong>%s</strong> klik"
+msgstr[1] "<strong>%s</strong> kliky"
+msgstr[2] "<strong>%s</strong> klikov"
+
+#: yourls-infos.php:521
+msgid "Referrer traffic:"
+msgstr "Referrer návštevnosť:"
+
+#: yourls-infos.php:530
+msgid "No referrer data."
+msgstr "Žiadne referrer údaje."
+
+#: yourls-infos.php:541
+msgid "Short link"
+msgstr "Krátky odkaz"
+
+#: yourls-infos.php:541 includes/functions-html.php:359
+msgid "Quick Share"
+msgstr "Rýchle zdieľanie"
+
+#: admin/index.php:13 admin/index.php:38 admin/index.php:97
+#: includes/functions-html.php:210 includes/functions-html.php:222
+msgid "URL"
+msgstr "URL"
+
+#: admin/index.php:42 includes/functions-html.php:211
+#: includes/functions-html.php:464
+msgid "Title"
+msgstr "Titulok"
+
+#: admin/index.php:46 admin/index.php:105
+msgid "IP Address"
+msgstr "IP Adresa"
+
+#: admin/index.php:50
+#, php-format
+msgid "Searching for <strong>%1$s</strong> in <strong>%2$s</strong>."
+msgstr "Hľadanie <strong>%1$s</strong> v <strong>%2$s</strong>."
+
+#: admin/index.php:101 includes/functions-html.php:223
+#: includes/functions-html.php:628
+msgid "Date"
+msgstr "Dátum"
+
+#: admin/index.php:109 includes/functions-html.php:225
+#: includes/functions-html.php:630
+msgid "Clicks"
+msgstr "Kliky"
+
+#: admin/index.php:187 admin/index.php:198 admin/index.php:209
+#, php-format
+msgid "Short URL created, but could not redirect to %s !"
+msgstr "Krátka URL vytvorená, ale nie je možné presmerovať na %s!"
+
+#: admin/index.php:219
+msgid "Unknown \"Share\" bookmarklet"
+msgstr "Neznáma záložka zdieľania"
+
+#: admin/index.php:272
+#, php-format
+msgid ""
+"Display <strong>%1$s</strong> to <strong class=\"increment\">%2$s</strong> "
+"of <strong class=\"increment\">%3$s</strong> URLs"
+msgstr ""
+"Zobrazuje sa <strong>%1$s</strong> až <strong class=\"increment\">%2$s</"
+"strong> z <strong class=\"increment\">%3$s</strong> URL"
+
+#: admin/index.php:274
+#, php-format
+msgid "counting <strong>1</strong> click"
+msgid_plural "counting <strong>%s</strong> clicks"
+msgstr[0] "započítaný <strong>1</strong> klik"
+msgstr[1] "započítané <strong>%s</strong> kliky"
+msgstr[2] "započítaných <strong>%s</strong> klikov"
+
+#: admin/index.php:277
+#, php-format
+msgid ""
+"Overall, tracking <strong class=\"increment\">%1$s</strong> links, <strong>"
+"%2$s</strong> clicks, and counting!"
+msgstr ""
+"Celkovo, sledujeme <strong class=\"increment\">%1$s</strong> odkazov, "
+"<strong>%2$s</strong> klikov, a pokračujeme!"
+
+#: admin/index.php:337
+msgid "No URL"
+msgstr "Žiadna URL"
+
+#: admin/install.php:13 admin/install.php:18
+#, php-format
+msgid "%s version is too old. Ask your server admin for an upgrade."
+msgstr "Verzia %s je príliš stará. Požiadajte svojho administrátora o upgrade."
+
+#: admin/install.php:24
+msgid "YOURLS already installed."
+msgstr "YOURLS je už nainštalovaný."
+
+#: admin/install.php:35
+msgid "File <tt>.htaccess</tt> successfully created/updated."
+msgstr "Súbor <tt>.htaccess</tt> úspešne vytvorený/aktualizovaný."
+
+#: admin/install.php:37
+msgid ""
+"Could not write file <tt>.htaccess</tt> in YOURLS root directory. You will "
+"have to do it manually. See <a href=\"http://yourls.org/htaccess\">how</a>."
+msgstr ""
+"Nepodarilo sa zapísať súbor <tt>.htaccess</tt> v YOURLS koreňovom priečinku. "
+"Budete to musieť spraviť ručne. Pozrite <a href=\"http://yourls.org/htaccess"
+"\">ako na to</a>."
+
+#: admin/install.php:50 admin/install.php:71
+msgid "Install YOURLS"
+msgstr "Inštalovať YOURLS"
+
+#: admin/install.php:74
+msgid "YOURLS Administration Page"
+msgstr "YOURLS administrácia"
+
+#: admin/plugins.php:38
+msgid "Unsupported action"
+msgstr "Nepodporovaná akcia"
+
+#: admin/plugins.php:42
+msgid "No plugin specified, or not a valid plugin"
+msgstr "Nešpecifikovaný žiadny plugin, alebo nie je platný plugin"
+
+#: admin/plugins.php:51
+msgid "Plugin has been activated"
+msgstr "Plugin je aktivovaný"
+
+#: admin/plugins.php:53
+msgid "Plugin has been deactivated"
+msgstr "Plugin je deaktivovaný"
+
+#: admin/plugins.php:58 includes/functions-html.php:745
+msgid "Manage Plugins"
+msgstr "Správa pluginov"
+
+#: admin/plugins.php:63
+msgid "Plugins"
+msgstr "Pluginy"
+
+#: admin/plugins.php:70
+#, php-format
+msgid "%s plugin"
+msgid_plural "%s plugins"
+msgstr[0] "%s plugin"
+msgstr[1] "%s pluginy"
+msgstr[2] "%s pluginov"
+
+#. //translators: "you have '3 plugins' installed and '1' activated"
+#: admin/plugins.php:74
+#, php-format
+msgid ""
+"You currently have <strong>%1$s</strong> installed, and <strong>%2$s</"
+"strong> activated"
+msgstr ""
+"Aktuálne máte <strong>%1$s</strong> nainštalovaných, a <strong>%2$s</strong> "
+"aktivovaných"
+
+#: admin/plugins.php:79
+msgid "Plugin Name"
+msgstr "Názov pluginu"
+
+#: admin/plugins.php:80
+msgid "Version"
+msgstr "Verzia"
+
+#: admin/plugins.php:81
+msgid "Description"
+msgstr "Popis"
+
+#: admin/plugins.php:82
+msgid "Author"
+msgstr "Autor"
+
+#: admin/plugins.php:83
+msgid "Action"
+msgstr "Akcia"
+
+#: admin/plugins.php:118
+msgid "Deactivate"
+msgstr "Deaktivovať"
+
+#: admin/plugins.php:122
+msgid "Activate"
+msgstr "Aktivovať"
+
+#: admin/plugins.php:133
+#, php-format
+msgid "plugin file location: %s"
+msgstr "umiestnenie súboru pluginu: %s"
+
+#: admin/plugins.php:150
+msgid "Toggle active/inactive plugins"
+msgstr "Prepne plugin aktívny/neaktívny"
+
+#: admin/plugins.php:157
+msgid ""
+"If something goes wrong after you activate a plugin and you cannot use "
+"YOURLS or access this page, simply rename or delete its directory, or rename "
+"the plugin file to something different than <code>plugin.php</code>."
+msgstr ""
+"Ak sa nie pokazí, po zapnutí pluginu a neviete sa používať YOURLS na prístup "
+"k tejto stránke, jednoducho premenujte alebo odstráňte jeho priečinok, alebo "
+"premenujte súbor pluginu na niečo iné než <code>plugin.php</code>."
+
+#: admin/plugins.php:159
+msgid "More plugins"
+msgstr "Viac pluginov"
+
+#: admin/plugins.php:161
+msgid ""
+"For more plugins, head to the official <a href=\"http://yourls.org/pluginlist"
+"\">Plugin list</a>."
+msgstr ""
+"Viac pluginov nájdete na oficiálnom <a href=\"http://yourls.org/pluginlist"
+"\">Zozname pluginov</a>."
+
+#: admin/tools.php:6
+msgid "Cool YOURLS Tools"
+msgstr ""
+
+#: admin/tools.php:13
+msgid "Bookmarklets"
+msgstr ""
+
+#: admin/tools.php:15
+msgid ""
+"YOURLS comes with handy <span>bookmarklets</span> for easier link shortening "
+"and sharing."
+msgstr ""
+
+#: admin/tools.php:17
+msgid "Standard or Instant, Simple or Custom"
+msgstr ""
+
+#: admin/tools.php:20
+msgid ""
+"The <span>Standard Bookmarklets</span> will take you to a page where you can "
+"easily edit or delete your brand new short URL."
+msgstr ""
+
+#: admin/tools.php:22
+msgid ""
+"The <span>Instant Bookmarklets</span> will pop the short URL without leaving "
+"the page you are viewing."
+msgstr ""
+
+#: admin/tools.php:24
+msgid ""
+"The <span>Simple Bookmarklets</span> will generate a short URL with a random "
+"or sequential keyword."
+msgstr ""
+
+#: admin/tools.php:26
+msgid ""
+"The <span>Custom Keyword Bookmarklets</span> will prompt you for a custom "
+"keyword first."
+msgstr ""
+
+#: admin/tools.php:30
+msgid ""
+"If you want to share a description along with the link you're shortening, "
+"simply <span>select text</span> on the page you're viewing before clicking "
+"on your bookmarklet link"
+msgstr ""
+
+#: admin/tools.php:33
+msgid "The Bookmarklets"
+msgstr ""
+
+#: admin/tools.php:35 admin/tools.php:62
+msgid "Click and drag links to your toolbar (or right-click and bookmark it)"
+msgstr ""
+
+#: admin/tools.php:41
+msgid "Standard (new page)"
+msgstr ""
+
+#: admin/tools.php:42
+msgid "Instant (popup)"
+msgstr ""
+
+#: admin/tools.php:47
+msgid "Simple"
+msgstr ""
+
+#: admin/tools.php:48 admin/tools.php:49 admin/tools.php:53 admin/tools.php:54
+#: admin/tools.php:68 admin/tools.php:70 admin/tools.php:72
+msgid "Drag to your toolbar!"
+msgstr ""
+
+#: admin/tools.php:48
+msgid "Shorten"
+msgstr "Skrátiť"
+
+#: admin/tools.php:49
+msgid "Instant Shorten"
+msgstr ""
+
+#: admin/tools.php:52
+msgid "Custom Keyword"
+msgstr "Vlastné kľúčové slovo"
+
+#: admin/tools.php:53
+msgid "Custom shorten"
+msgstr ""
+
+#: admin/tools.php:54
+msgid "Instant Custom Shorten"
+msgstr ""
+
+#: admin/tools.php:59
+msgid "Social Bookmarklets"
+msgstr ""
+
+#: admin/tools.php:61
+msgid "Create a short URL and share it on social networks, all in one click!"
+msgstr ""
+
+#: admin/tools.php:64
+msgid "Shorten and share:"
+msgstr ""
+
+#: admin/tools.php:68
+msgid "YOURLS &amp; Facebook"
+msgstr ""
+
+#: admin/tools.php:70
+msgid "YOURLS &amp; Twitter"
+msgstr ""
+
+#: admin/tools.php:72
+msgid "YOURLS &amp; Tumblr"
+msgstr ""
+
+#: admin/tools.php:80
+msgid "Prefix-n-Shorten"
+msgstr ""
+
+#: admin/tools.php:82
+#, php-format
+msgid ""
+"When viewing a page, you can also prefix its full URL: just head to your "
+"browser's address bar, add \"<span>%s</span>\" to the beginning of the "
+"current URL (right before its 'http://' part) and hit enter."
+msgstr ""
+
+#: admin/tools.php:85
+msgid ""
+"Note: this will probably not work if your web server is running on Windows"
+msgstr ""
+
+#: admin/tools.php:87
+msgid " (which seems to be the case here)"
+msgstr ""
+
+#: admin/tools.php:93
+msgid "Secure passwordless API call"
+msgstr ""
+
+#: admin/tools.php:96
+msgid ""
+"YOURLS allows API calls the old fashioned way, using <tt>username</tt> and "
+"<tt>password</tt> parameters."
+msgstr ""
+
+#: admin/tools.php:98
+msgid ""
+"If you're worried about sending your credentials into the wild, you can also "
+"make API calls without using your login or your password, using a secret "
+"signature token."
+msgstr ""
+
+#: admin/tools.php:102
+#, php-format
+msgid "Your secret signature token: <strong><code>%s</code></strong>"
+msgstr ""
+
+#: admin/tools.php:103
+msgid "(It's a secret. Keep it secret) "
+msgstr "(Je to tajomstvo. Udržte to v tajnosti)"
+
+#: admin/tools.php:106
+msgid ""
+"This signature token can only be used with the API, not with the admin "
+"interface."
+msgstr "Tento podpisový token je môžné použiť len s API, nie v administrácii."
+
+#: admin/tools.php:109
+msgid "Usage of the signature token"
+msgstr "Použite podpisový token"
+
+#: admin/tools.php:110
+msgid "Simply use parameter <tt>signature</tt> in your API requests. Example:"
+msgstr ""
+"Jednoducho použite parameter <tt>signature</tt> vo svojich API požidavkách. "
+"Príklad:"
+
+#: admin/tools.php:114
+msgid "Usage of a time limited signature token"
+msgstr "Použitie časovo obmedzených podpisových tokenov"
+
+#: admin/tools.php:117 admin/tools.php:119
+msgid "actual value:"
+msgstr "aktuálna hodnota:"
+
+#: admin/tools.php:122
+msgid ""
+"Now use parameters <tt>signature</tt> and <tt>timestamp</tt> in your API "
+"requests. Example:"
+msgstr ""
+"Teraz použite parametre <tt>signature</tt> a <tt>timestamp</tt> vo svojich "
+"API požiadavkách. Príklad:"
+
+#: admin/tools.php:124
+msgid "Actual values:"
+msgstr "Aktuálne hodnoty:"
+
+#: admin/tools.php:126
+#, php-format
+msgid "This URL would be valid for only %s seconds"
+msgstr "Táto URL by bola platná iba %s sekúnd"
+
+#: admin/tools.php:130
+#, php-format
+msgid "See the <a href=\"%s\">API documentation</a> for more"
+msgstr "Pre viac info pozrite <a href=\"%s\">API dokumentáciu</a> "
+
+#: admin/upgrade.php:9 admin/upgrade.php:13
+msgid "Upgrade YOURLS"
+msgstr "Aktualizovať YOURLS"
+
+#: admin/upgrade.php:18
+#, php-format
+msgid "Upgrade not required. Go <a href=\"%s\">back to play</a>!"
+msgstr "Aktualizáciu netreba. Môžete sa <a href=\"%s\">ísť znova hrať</a>!"
+
+#: admin/upgrade.php:51
+msgid "Your current installation needs to be upgraded."
+msgstr "Vaša aktuálna inštalácia by mala byť aktualizovaná."
+
+#: admin/upgrade.php:52
+msgid ""
+"Please, pretty please, it is recommended that you <strong>backup</strong> "
+"your database<br/>(you should do this regularly anyway)"
+msgstr ""
+"Prosím, pekne prosím, odporúčame Vám <strong>zálohovať</strong> svoju "
+"databázu<br/>(mali by ste to robiť pravidelne tak či tak)"
+
+#: admin/upgrade.php:53
+msgid ""
+"Nothing awful <em>should</em> happen, but this doesn't mean it <em>won't</"
+"em> happen, right? ;)"
+msgstr ""
+"<em>Nemalo by sa</em> stať nič hrozné, ale to samozrejme neznamená, že sa "
+"<em>nič nestane</em>. ;)"
+
+#: admin/upgrade.php:54
+msgid ""
+"On every step, if <span class='error'>something goes wrong</span>, you'll "
+"see a message and hopefully a way to fix."
+msgstr ""
+"Pri každom kroku, ak <span class='error'>nastane problém</span>, uvidíte "
+"správu a prípadne aj s riešením."
+
+#: admin/upgrade.php:55
+msgid ""
+"If everything goes too fast and you cannot read, <span class=\"success"
+"\">good for you</span>, let it go :)"
+msgstr ""
+"Ak všetko prejde príliš rýchlo a nestihnete to prečítať, <span class="
+"\"success\">len dobre pre Vás</span>, nechajte to tak :)"
+
+#: admin/upgrade.php:56
+msgid "Once you are ready, press \"Upgrade\" !"
+msgstr "Akonáhle ste pripravený, stlačte \"Aktualizovať\"!"
+
+#: admin/upgrade.php:65
+msgid "Upgrade"
+msgstr "Aktualizovať"
+
+#: admin/upgrade.php:77
+msgid "Your installation is now up to date ! "
+msgstr "Vaša inštalácia je teraz aktuálna!"
+
+#: admin/upgrade.php:78
+#, php-format
+msgid "Go back to <a href=\"%s\">the admin interface</a>"
+msgstr "Prejsť späť do <a href=\"%s\">administrácie</a>"
+
+#: includes/auth.php:53
+#, php-format
+msgid "Could not auto-encrypt passwords. Error was: \"%s\"."
+msgstr "Nepodarilo sa automaticky zašifrovať heslá. Chyba bola: \"%s\"."
+
+#: includes/auth.php:55
+#, php-format
+msgid "<a href=\"%s\">Get help</a>."
+msgstr "<a href=\"%s\">Získať pomoc</a>."
+
+#: includes/auth.php:57
+#, php-format
+msgid "<a href=\"%s\">Click here</a> to dismiss this message for one week."
+msgstr ""
+"<a href=\"%s\">Kliknite sem</a> a správa sa nebude zobrazovať 1 týždeň."
+
+#: includes/class-mysql.php:39
+msgid ""
+"YOURLS requires the mysql, mysqli or pdo_mysql PHP extension. No extension "
+"found. Check your server config, or contact your host."
+msgstr ""
+"YOURLS vyžaduje mysql, mysqli, alebo pdo_mysql PHP rozšírenie. Žiadne z nich "
+"sa nenašlo. Skontrolujte konfuguráciu servera, alebo kontaktuje svoj hosting."
+
+#: includes/class-mysql.php:40 includes/functions-install.php:16
+#: includes/functions.php:438 includes/functions.php:450
+msgid "Fatal error"
+msgstr "Fatálna chyba"
+
+#: includes/functions-auth.php:26
+msgid "Logged out successfully"
+msgstr "Odhlásenie bolo úspešné"
+
+#: includes/functions-auth.php:102
+msgid "Invalid username or password"
+msgstr "Neplatné meno alebo heslo"
+
+#: includes/functions-auth.php:104
+msgid "Please log in"
+msgstr "Prosím prihláste sa"
+
+#: includes/functions-html.php:142
+#, php-format
+msgid "1 query"
+msgid_plural "%s queries"
+msgstr[0] "1 dotaz"
+msgstr[1] "%s dotazy"
+msgstr[2] "%s dotazov"
+
+#: includes/functions-html.php:147
+#, php-format
+msgid "Powered by %s"
+msgstr "Postavené na %s"
+
+#: includes/functions-html.php:175
+msgid "Enter the URL"
+msgstr "Zadajte URL"
+
+#: includes/functions-html.php:176
+msgid "Optional "
+msgstr "Voliteľne"
+
+#: includes/functions-html.php:176
+msgid "Custom short URL"
+msgstr "Vlastná krátka URL"
+
+#: includes/functions-html.php:178
+msgid "Shorten The URL"
+msgstr "Skrátiť URL"
+
+#: includes/functions-html.php:212 includes/functions-html.php:224
+#: includes/functions-html.php:629
+msgid "IP"
+msgstr "IP"
+
+#. //translators: "Search for <input field with text to search> in <select dropdown with URL, title...>"
+#: includes/functions-html.php:216
+#, php-format
+msgid "Search for %1$s in %2$s"
+msgstr "Hľadať %1$s v %2$s"
+
+#: includes/functions-html.php:230
+msgid "Ascending"
+msgstr "Vzostupne"
+
+#: includes/functions-html.php:231
+msgid "Descending"
+msgstr "Zostupne"
+
+#. //translators: "Order by <criteria dropdown (date, clicks...)> in <order dropdown (Descending or Ascending)>"
+#: includes/functions-html.php:235
+#, php-format
+msgid "Order by %1$s %2$s"
+msgstr "Zoradiť podľa %1$s %2$s"
+
+#. //translators: "Show <text field> rows"
+#: includes/functions-html.php:240
+#, php-format
+msgid "Show %s rows"
+msgstr "Zobraziť %s riadkov"
+
+#: includes/functions-html.php:245
+msgid "more"
+msgstr "viac"
+
+#: includes/functions-html.php:246
+msgid "less"
+msgstr "menej"
+
+#. //translators: "Show links with <more/less> than <text field> clicks"
+#: includes/functions-html.php:251
+#, php-format
+msgid "Show links with %1$s than %2$s clicks"
+msgstr "Zobraziť odkazy s %1$s ako %2$s preklikmi"
+
+#: includes/functions-html.php:256
+msgid "before"
+msgstr "pred"
+
+#: includes/functions-html.php:257
+msgid "after"
+msgstr "po"
+
+#: includes/functions-html.php:258
+msgid "between"
+msgstr "medzi"
+
+#. //translators: "Show links created <before/after/between> <date input> <"and" if applicable> <date input if applicable>"
+#: includes/functions-html.php:265
+#, php-format
+msgid "Show links created %1$s %2$s %3$s %4$s"
+msgstr "Zobraziť odkazy vytvorené %1$s %2$s %3$s %4$s"
+
+#: includes/functions-html.php:269
+msgid "Search"
+msgstr "Hľadať"
+
+#: includes/functions-html.php:271
+msgid "Clear"
+msgstr "Vyčistiť"
+
+#: includes/functions-html.php:291
+#, php-format
+msgid "1 page"
+msgid_plural "%s pages"
+msgstr[0] "1 stánka"
+msgstr[1] "%s stránky"
+msgstr[2] "%s stránok"
+
+#: includes/functions-html.php:299 includes/functions-html.php:313
+msgid "Go to First Page"
+msgstr "Prejsť na prvú stránku"
+
+#: includes/functions-html.php:299
+msgid "&laquo; First"
+msgstr "&laquo; prvá"
+
+#: includes/functions-html.php:313
+msgid "Last &raquo;"
+msgstr "posledná &raquo;"
+
+#: includes/functions-html.php:357
+msgid "Your short link"
+msgstr "Váš krátky odkaz"
+
+#: includes/functions-html.php:388
+msgid "Long link"
+msgstr "Dlhý odkaz"
+
+#: includes/functions-html.php:390 includes/functions-html.php:499
+#: includes/functions-html.php:500
+msgid "Stats"
+msgstr "Štatistiky"
+
+#: includes/functions-html.php:404
+msgid "Share with"
+msgstr "Zdieľať s"
+
+#: includes/functions-html.php:405
+msgid "Tweet this!"
+msgstr "Zdieľať na Twitter!"
+
+#: includes/functions-html.php:406
+msgid "Share on Facebook"
+msgstr "Zdieľať na Facebooku"
+
+#: includes/functions-html.php:407
+msgid "Share on Friendfeed"
+msgstr "Zdieľať na Friendfeede"
+
+#: includes/functions-html.php:464
+msgid "Save"
+msgstr "Uložiť"
+
+#: includes/functions-html.php:464
+msgid "Save new values"
+msgstr "Uložiť nové hodnoty"
+
+#: includes/functions-html.php:464
+msgid "Cancel"
+msgstr "Zrušiť"
+
+#: includes/functions-html.php:464
+msgid "Cancel editing"
+msgstr "Zrušiť úpravy"
+
+#: includes/functions-html.php:466
+msgid "Error, URL not found"
+msgstr "Chyba, URL nenájdená"
+
+#: includes/functions-html.php:512 includes/functions-html.php:513
+msgid "Edit"
+msgstr "Upraviť"
+
+#: includes/functions-html.php:519 includes/functions-html.php:520
+msgid "Delete"
+msgstr "Odstrániť"
+
+#: includes/functions-html.php:541
+msgid "Not a common link"
+msgstr "Nie je bežný odkaz"
+
+#: includes/functions-html.php:627
+msgid "Original URL"
+msgstr "Pôvodná URL"
+
+#: includes/functions-html.php:631
+msgid "Actions"
+msgstr "Akcie"
+
+#: includes/functions-html.php:697
+msgid "Username"
+msgstr "Prihlasovacie meno"
+
+#: includes/functions-html.php:701
+msgid "Password"
+msgstr "Heslo"
+
+#: includes/functions-html.php:705
+msgid "Login"
+msgstr "Prihlásiť"
+
+#: includes/functions-html.php:723 user/themes/full-bootstrap/theme.php:87
+#, php-format
+msgid "Hello <strong>%s</strong>"
+msgstr "Vitaj <strong>%s</strong>"
+
+#: includes/functions-html.php:723 user/themes/full-bootstrap/theme.php:87
+msgid "Logout"
+msgstr "Odhlásiť"
+
+#: includes/functions-html.php:727
+msgid "Help"
+msgstr "Pomoc"
+
+#: includes/functions-html.php:734
+msgid "Go to the admin interface"
+msgstr "Prejsť do administrácie"
+
+#: includes/functions-html.php:735
+msgid "Admin interface"
+msgstr "Home - Zoznam odkazov"
+
+#: includes/functions-html.php:741
+msgid "Tools"
+msgstr "Nástroje"
+
+#: includes/functions-html.php:867 includes/functions-html.php:872
+msgid "Today"
+msgstr "Dnes"
+
+#: includes/functions-html.php:868 includes/functions-html.php:873
+msgid "Close"
+msgstr "Zavrieť"
+
+#: includes/functions-html.php:889
+#, php-format
+msgid "<a href=\"%s\">YOURLS version %s</a> is available. Please update!"
+msgstr ""
+"<a href=\"%s\">YOURLS verzia %s</a> je k dispozícii. Prosím aktualizujte!"
+
+#: includes/functions-install.php:16 includes/functions.php:438
+msgid "Incorrect DB config, or could not connect to DB"
+msgstr "Nesprávne nastavenia DB, alebo sa nedá pripojiť k DB"
+
+#: includes/functions-install.php:241
+#, php-format
+msgid "Table '%s' created."
+msgstr "Tabuľka '%s' vytvorená."
+
+#: includes/functions-install.php:243
+#, php-format
+msgid "Error creating table '%s'."
+msgstr "Chyba pri vytváraní tabuľky '%s'."
+
+#: includes/functions-install.php:249
+msgid "Could not initialize options"
+msgstr "Nepodarilosi inicializovať voľby"
+
+#: includes/functions-install.php:253
+msgid "Could not insert sample short URLs"
+msgstr "Nepodarilo sa vložiť ukážkové krátke URL"
+
+#: includes/functions-install.php:257
+msgid "YOURLS tables successfully created."
+msgstr "YOURLS tabuľky sú úspešne vytvorené."
+
+#: includes/functions-install.php:259
+msgid "Error creating YOURLS tables."
+msgstr "Chyba pri vytváraní YOURLS tabuliek"
+
+#. //translators: weekday
+#: includes/functions-l10n.php:795 includes/functions-l10n.php:805
+#: includes/functions-l10n.php:818
+msgid "Sunday"
+msgstr "Nedeľa"
+
+#. //translators: weekday
+#: includes/functions-l10n.php:796 includes/functions-l10n.php:806
+#: includes/functions-l10n.php:819
+msgid "Monday"
+msgstr "Pondelok"
+
+#. //translators: weekday
+#: includes/functions-l10n.php:797 includes/functions-l10n.php:807
+#: includes/functions-l10n.php:820
+msgid "Tuesday"
+msgstr "Utorok"
+
+#. //translators: weekday
+#: includes/functions-l10n.php:798 includes/functions-l10n.php:808
+#: includes/functions-l10n.php:821
+msgid "Wednesday"
+msgstr "Streda"
+
+#. //translators: weekday
+#: includes/functions-l10n.php:799 includes/functions-l10n.php:809
+#: includes/functions-l10n.php:822
+msgid "Thursday"
+msgstr "Štvrtok"
+
+#. //translators: weekday
+#: includes/functions-l10n.php:800 includes/functions-l10n.php:810
+#: includes/functions-l10n.php:823
+msgid "Friday"
+msgstr "Piatok"
+
+#. //translators: weekday
+#: includes/functions-l10n.php:801 includes/functions-l10n.php:811
+#: includes/functions-l10n.php:824
+msgid "Saturday"
+msgstr "Sobota"
+
+#. //translators: one-letter abbreviation of the weekday
+#: includes/functions-l10n.php:805
+msgid "S_Sunday_initial"
+msgstr ""
+
+#. //translators: one-letter abbreviation of the weekday
+#: includes/functions-l10n.php:806
+msgid "M_Monday_initial"
+msgstr ""
+
+#. //translators: one-letter abbreviation of the weekday
+#: includes/functions-l10n.php:807
+msgid "T_Tuesday_initial"
+msgstr ""
+
+#. //translators: one-letter abbreviation of the weekday
+#: includes/functions-l10n.php:808
+msgid "W_Wednesday_initial"
+msgstr ""
+
+#. //translators: one-letter abbreviation of the weekday
+#: includes/functions-l10n.php:809
+msgid "T_Thursday_initial"
+msgstr ""
+
+#. //translators: one-letter abbreviation of the weekday
+#: includes/functions-l10n.php:810
+msgid "F_Friday_initial"
+msgstr ""
+
+#. //translators: one-letter abbreviation of the weekday
+#: includes/functions-l10n.php:811
+msgid "S_Saturday_initial"
+msgstr ""
+
+#. //translators: three-letter abbreviation of the weekday
+#: includes/functions-l10n.php:818
+msgid "Sun"
+msgstr "Ned"
+
+#. //translators: three-letter abbreviation of the weekday
+#: includes/functions-l10n.php:819
+msgid "Mon"
+msgstr "Pon"
+
+#. //translators: three-letter abbreviation of the weekday
+#: includes/functions-l10n.php:820
+msgid "Tue"
+msgstr "Uto"
+
+#. //translators: three-letter abbreviation of the weekday
+#: includes/functions-l10n.php:821
+msgid "Wed"
+msgstr "Str"
+
+#. //translators: three-letter abbreviation of the weekday
+#: includes/functions-l10n.php:822
+msgid "Thu"
+msgstr "Štv"
+
+#. //translators: three-letter abbreviation of the weekday
+#: includes/functions-l10n.php:823
+msgid "Fri"
+msgstr "Pia"
+
+#. //translators: three-letter abbreviation of the weekday
+#: includes/functions-l10n.php:824
+msgid "Sat"
+msgstr "Sob"
+
+#. //translators: month name
+#: includes/functions-l10n.php:827 includes/functions-l10n.php:842
+msgid "January"
+msgstr "Január"
+
+#. //translators: month name
+#: includes/functions-l10n.php:828 includes/functions-l10n.php:843
+msgid "February"
+msgstr "Február"
+
+#. //translators: month name
+#: includes/functions-l10n.php:829 includes/functions-l10n.php:844
+msgid "March"
+msgstr "Marec"
+
+#. //translators: month name
+#: includes/functions-l10n.php:830 includes/functions-l10n.php:845
+msgid "April"
+msgstr "Apríl"
+
+#. //translators: month name
+#: includes/functions-l10n.php:831 includes/functions-l10n.php:846
+msgid "May"
+msgstr "Máj"
+
+#. //translators: month name
+#: includes/functions-l10n.php:832 includes/functions-l10n.php:847
+msgid "June"
+msgstr "Jún"
+
+#. //translators: month name
+#: includes/functions-l10n.php:833 includes/functions-l10n.php:848
+msgid "July"
+msgstr "Júl"
+
+#. //translators: month name
+#: includes/functions-l10n.php:834 includes/functions-l10n.php:849
+msgid "August"
+msgstr "August"
+
+#. //translators: month name
+#: includes/functions-l10n.php:835 includes/functions-l10n.php:850
+msgid "September"
+msgstr "September"
+
+#. //translators: month name
+#: includes/functions-l10n.php:836 includes/functions-l10n.php:851
+msgid "October"
+msgstr "Október"
+
+#. //translators: month name
+#: includes/functions-l10n.php:837 includes/functions-l10n.php:852
+msgid "November"
+msgstr "November"
+
+#. //translators: month name
+#: includes/functions-l10n.php:838 includes/functions-l10n.php:853
+msgid "December"
+msgstr "December"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:842
+msgid "Jan_January_abbreviation"
+msgstr ""
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:843
+msgid "Feb_February_abbreviation"
+msgstr ""
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:844
+msgid "Mar_March_abbreviation"
+msgstr ""
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:845
+msgid "Apr_April_abbreviation"
+msgstr ""
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:846
+msgid "May_May_abbreviation"
+msgstr ""
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:847
+msgid "Jun_June_abbreviation"
+msgstr ""
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:848
+msgid "Jul_July_abbreviation"
+msgstr ""
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:849
+msgid "Aug_August_abbreviation"
+msgstr ""
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:850
+msgid "Sep_September_abbreviation"
+msgstr ""
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:851
+msgid "Oct_October_abbreviation"
+msgstr ""
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:852
+msgid "Nov_November_abbreviation"
+msgstr ""
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:853
+msgid "Dec_December_abbreviation"
+msgstr ""
+
+#: includes/functions-l10n.php:860
+msgid "am"
+msgstr ""
+
+#: includes/functions-l10n.php:861
+msgid "pm"
+msgstr ""
+
+#: includes/functions-l10n.php:862
+msgid "AM"
+msgstr ""
+
+#: includes/functions-l10n.php:863
+msgid "PM"
+msgstr ""
+
+#. //translators: $thousands_sep argument for http://php.net/number_format, default is ,
+#: includes/functions-l10n.php:869
+msgid "number_format_thousands_sep"
+msgstr ""
+
+#. //translators: $dec_point argument for http://php.net/number_format, default is .
+#: includes/functions-l10n.php:873
+msgid "number_format_decimal_point"
+msgstr ""
+
+#. //translators: 'rtl' or 'ltr'. This sets the text direction for YOURLS.
+#: includes/functions-l10n.php:880
+msgid "ltr"
+msgstr ""
+
+#: includes/functions-plugins.php:387
+msgid "Could not find and deactivated plugin :"
+msgid_plural "Could not find and deactivated plugins :"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/functions-plugins.php:425
+msgid "Not a valid plugin file"
+msgstr "Neplatný súbor pluginu"
+
+#: includes/functions-plugins.php:430
+msgid "Plugin already activated"
+msgstr "Plugin je už aktivovaný"
+
+#: includes/functions-plugins.php:438
+#, php-format
+msgid "Plugin generated unexpected output. Error was: <br/><pre>%s</pre>"
+msgstr "Plugin vygeneroval neočakávaný vystup. Chyba bola: <br/><pre>%s</pre>"
+
+#: includes/functions-plugins.php:461
+msgid "Plugin not active"
+msgstr "Plugin neaktívny"
+
+#: includes/functions-plugins.php:541
+msgid ""
+"This page does not exist. Maybe a plugin you thought was activated is "
+"inactive?"
+msgstr ""
+"Táto stránka neexistuje. Asi plugin, ktorý ste si mysleli, že je aktívny, "
+"nie je."
+
+#: includes/functions-plugins.php:541
+msgid "Invalid link"
+msgstr "Neplatný odkaz"
+
+#: includes/functions.php:201
+msgid "Missing or malformed URL"
+msgstr "Chýbajúci alebo pokazená URL"
+
+#: includes/functions.php:215
+msgid "URL is a short URL"
+msgstr "URL je krátke URL"
+
+#: includes/functions.php:247
+#, php-format
+msgid "Short URL %s already exists in database or is reserved"
+msgstr "Krátka URL %s už existuje v databáze alebo je rezervovaná"
+
+#. //translators: eg "http://someurl/ added to DB"
+#: includes/functions.php:253 includes/functions.php:275
+#, php-format
+msgid "%s added to database"
+msgstr "%s pridaný do databázy"
+
+#: includes/functions.php:283
+msgid "Error saving url to database"
+msgstr "Chyba pri ukladaná url do databázy"
+
+#. //translators: eg "http://someurl/ already exists"
+#: includes/functions.php:300
+#, php-format
+msgid "%s already exists in database"
+msgstr "%s už v databáze existuje"
+
+#: includes/functions.php:355
+msgid "Link updated in database"
+msgstr "Odkaz upravený v databáze"
+
+#. //translators: "Error updating http://someurl/ (Shorturl: http://sho.rt/blah)"
+#: includes/functions.php:358
+#, php-format
+msgid "Error updating %s (Short URL: %s)"
+msgstr "Chyba pri úprave %s (Krátka URL: %s)"
+
+#: includes/functions.php:364
+msgid "URL or keyword already exists in database"
+msgstr "URL alebo kľúčové slovo už existuje v databáze"
+
+#: includes/functions.php:761
+#, php-format
+msgid ""
+"if you are not redirected after 10 seconds, please <a href=\"%s\">click "
+"here</a>"
+msgstr ""
+"ak nebudete do 10 sekúnd presmerovaní, prosím <a href=\"%s\">kliknite sem</a>"
+
+#: includes/functions.php:769
+#, php-format
+msgid "Please <a href=\"%s\">click here</a>"
+msgstr "Prosím <a href=\"%s\">kliknite tu</a>"
+
+#: includes/functions.php:1394
+msgid "Too many URLs added too fast. Slow down please."
+msgstr "Príliš veľa URL ste pridali príliš rýchlo. Prosím spomaľte."
+
+#: includes/functions.php:1394
+msgid "Forbidden"
+msgstr "Zakázané"
+
+#: includes/functions.php:1673
+msgid "Unauthorized action or expired link"
+msgstr "Neautorizovaná akcia alebo odkaz vypršal"
+
+#: includes/functions.php:1673
+msgid "Error"
+msgstr "Chyba"
+
+#: includes/functions.php:2064
+msgid "Service temporarily unavailable"
+msgstr "Služba je dočasne nedostupná"
+
+#: includes/functions.php:2065
+msgid "Our service is currently undergoing scheduled maintenance."
+msgstr "Naša služba je momentálne v režime údržby."
+
+#: includes/functions.php:2066
+msgid ""
+"Things should not last very long, thank you for your patience and please "
+"excuse the inconvenience"
+msgstr ""
+"Nemalo by to trva príliš dlho, ďakujeme za trpezlivosť a ospravedlňujeme sa "
+"za túto nepríjemnosť"
+
+#: includes/functions.php:2186
+#, php-format
+msgid ""
+"%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
+msgstr ""
+"%1$s sa <strong>neodporúča</strong> od verzie %2$s! Použite namiesto toho "
+"%3$s."
+
+#: includes/functions.php:2188
+#, php-format
+msgid ""
+"%1$s is <strong>deprecated</strong> since version %2$s with no alternative "
+"available."
+msgstr "%1$s sa <strong>neodporúča</strong> od verzie %2$s bez alternatívy."
+
+#: user/plugins/sample-toolbar/plugin.php:62
+msgid "day"
+msgid_plural "days"
+msgstr[0] "deň"
+msgstr[1] "dni"
+msgstr[2] "dní"
+
+#: user/plugins/sample-toolbar/plugin.php:67
+msgid "view"
+msgid_plural "views"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
